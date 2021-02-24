@@ -634,4 +634,8 @@
     <!-- Whether or not to enable the lock screen entry point for the QR code scanner. -->
     <bool name="config_enableQrCodeScannerOnLockScreen">true</bool>
 
+   <!-- Amount of time in ms the user needs to press the relevant keys to trigger the
+         screenshot chord -->
+   <integer name="config_screenshotChordKeyTimeout">0</integer>
+
 </resources>
