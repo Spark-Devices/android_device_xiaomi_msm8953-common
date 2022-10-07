@@ -54,6 +54,13 @@ bluetooth.profile.pan.nap.enabled?=true \
 bluetooth.profile.pan.panu.enabled?=true \
 bluetooth.profile.pbap.server.enabled?=true 
 
+# Blur
+PRODUCT_PRODUCT_PROPERTIES += \
+ro.surface_flinger.supports_background_blur=0 \
+ro.sf.blurs_are_expensive=0 \
+persist.sys.sf.disable_blurs=1 \
+ro.launcher.blur.appLaunch=0
+
 # Camera
 PRODUCT_PROPERTY_OVERRIDES += \
 camera.display.lmax=1280x720 \
