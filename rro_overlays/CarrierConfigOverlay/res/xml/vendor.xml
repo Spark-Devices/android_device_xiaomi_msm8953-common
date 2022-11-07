@@ -94,6 +94,9 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <boolean name="ignore_rtt_mode_setting_bool" value="false"/>
         <int name="default_rtt_mode_int" value="0" />
 
+        <!-- LTE+ icon will be shown if the device is using CA and the combined channel bandwidth -->
+        <int name="lte_plus_threshold_bandwidth_khz_int" value="0"/>
+
         <!-- HD/VOLTE icon support -->
         <boolean name="config_update_service_status" value="false"/>
         <boolean name="config_update_volte_icon" value="false"/>
