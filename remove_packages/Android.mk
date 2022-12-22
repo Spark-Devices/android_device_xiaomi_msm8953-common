@@ -15,6 +15,7 @@ LOCAL_OVERRIDES_PACKAGES += RecorderPrebuilt ScribePrebuilt SafetyHubPrebuilt
 LOCAL_OVERRIDES_PACKAGES += Showcase SoundAmplifierPrebuilt Photos
 LOCAL_OVERRIDES_PACKAGES += SprintDM SprintHM Tycho USCCDM VZWAPNLib
 LOCAL_OVERRIDES_PACKAGES += VzwOmaTrigger WallpapersBReel2020 obdm_stub
+LOCAL_OVERRIDES_PACKAGES += CalculatorGooglePrebuilt CalendarGooglePrebuilt 
 LOCAL_UNINSTALLABLE_MODULE := true
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_SRC_FILES := /dev/null
