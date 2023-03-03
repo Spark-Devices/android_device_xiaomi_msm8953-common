@@ -52,7 +52,7 @@ ro.config.sdha_apps_bg_min=8
 # Bluetooth
 PRODUCT_PROPERTY_OVERRIDES += \
 bluetooth.hfp.client=1 \
-qcom.bluetooth.soc=smd \
+vendor.qcom.bluetooth.soc=smd \
 ro.bluetooth.hfp.ver=1.7 \
 ro.qualcomm.bt.hci_transport=smd \
 bluetooth.device.class_of_device=90,2,12 \

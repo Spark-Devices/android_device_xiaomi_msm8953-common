@@ -177,8 +177,8 @@ PRODUCT_PACKAGES += \
 
 # FM
 PRODUCT_PACKAGES += \
-    FMRadio \
-    libfmjni
+    RevampedFMRadio \
+    libqcomfmjni
 
 # GPS / Location
 PRODUCT_PACKAGES += \
